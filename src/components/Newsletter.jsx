@@ -15,10 +15,10 @@ const Newsletter = () => {
             Sign up for our newsletter to stay up-to-date on the latest
             promotions, <br /> discounts, and new features releases.
           </p>
-          <div className="flex items-center border border-[#ECBFD3] h-[68px] w-[543px] rounded-full px-2.5 gap-3">
+          <div className="flex items-center border border-[#ECBFD3] h-17 w-135.45 rounded-full px-2.5 gap-3">
             <Mail size={25}/>
             <input type="text" placeholder="Enter your mail" className=" w-[80%] outline-0"/>
-            <button className="bg-[#141414] h-[50px] w-[144px] rounded-full text-white font-medium">Subscribe</button>
+            <button className="bg-[#141414] h-12.5 w-36 rounded-full text-white font-medium">Subscribe</button>
           </div>
         </div>
       </div>

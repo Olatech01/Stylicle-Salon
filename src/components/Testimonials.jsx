@@ -50,7 +50,7 @@ const Testimonials = () => {
         </h2>
       </div>
 
-      {/* Slider */}
+      
       <div className="w-full relative">
         <Swiper
           modules={[Navigation]}
@@ -64,18 +64,16 @@ const Testimonials = () => {
         >
           {testimonials.map((t) => (
             <SwiperSlide key={t.id}>
-              <div className="bg-[#4A2545] rounded-2xl flex md:flex-row flex-col items-center justify-center gap-10 md:px-[30rem] px-4 py-12 min-h-[400px]">
+              <div className="bg-[#4A2545] rounded-2xl flex md:flex-row flex-col items-center justify-center gap-10 md:px-120 px-4 py-12 min-h-100">
                 
-                {/* Left — decorative quote marks + avatar */}
-                <div className="relative flex-shrink-0 w-1/2 h-[220px]">
-                  {/* Big decorative pill shapes */}
+                
+                <div className="relative shrink-0 w-1/2 h-55">
+                
                   <div className="absolute left-6 top-4 flex gap-3">
                     <div className="w-10 h-64 bg-white/20 rounded-full" />
                     <div className="w-10 h-64 bg-white/20 rounded-full mt-6" />
                   </div>
-                  {/* Bottom pill */}
-                  {/* <div className="absolute left-[52px] bottom-0 w-10 h-20 bg-white/20 rounded-full" /> */}
-                  {/* Avatar */}
+            
                   <div className="absolute bottom-4 left-12 overflow-hidden">
                     <Image
                       src={t.image}
@@ -108,7 +106,7 @@ const Testimonials = () => {
                   <h3 className="text-[22px] font-bold leading-snug">{t.title}</h3>
 
                   {/* Quote text */}
-                  <p className="text-white/75 text-[14px] md:w-[594px] w-full leading-relaxed">
+                  <p className="text-white/75 text-[14px] md:w-148.5 w-full leading-relaxed">
                     {t.quote}
                   </p>
 

@@ -3,13 +3,13 @@ import React from "react";
 const Hero = () => {
   return (
     <section
-      className="relative h-[750px] bg-cover bg-center"
+      className="relative h-187.5 bg-cover bg-center"
       style={{
         backgroundImage: "url('/salon.svg')",
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#422A3C] via-[#2d1730]/80 to-transparent" />
+      <div className="absolute inset-0 bg-linear-to-r from-[#422A3C] via-[#2d1730]/80 to-transparent" />
 
       {/* Content */}
       <div className="relative z-10 flex items-center h-full">
