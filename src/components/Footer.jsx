@@ -78,7 +78,7 @@ const Footer = () => {
               </svg>
             </div>
             <span className="text-white text-sm font-medium tracking-widest uppercase">
-              Servicemarket
+              Stylicle
             </span>
           </div>
 
