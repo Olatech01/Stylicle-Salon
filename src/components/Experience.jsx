@@ -20,8 +20,8 @@ const Experience = () => {
                 <Image height={304} width={500} src={"/three.svg"} alt='image'/>
             </div>
             <div className='flex flex-col gap-5'>
-                <Image height={304} width={500} src={"/four.svg"} alt='image' className='rounded-tr-[8px]'/>
-                <Image height={304} width={500} src={"/five.svg"} alt='image' className='rounded-br-[8px]'/>
+                <Image height={304} width={500} src={"/four.svg"} alt='image' className='rounded-tr-lg'/>
+                <Image height={304} width={500} src={"/five.svg"} alt='image' className='rounded-br-lg'/>
             </div>
         </div>
     </div>
