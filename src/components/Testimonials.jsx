@@ -12,27 +12,27 @@ const testimonials = [
     id: 1,
     name: "Leslie Alexander",
     location: "Moncton, Canada",
-    title: "Neque porro quisquam est qui dolum",
+    title: "An Amazing Spa Experience from Start to Finish",
     quote:
-      "It is a long established fact that a reader will be tracked distracted by the readable content of a page is when looking at its layout. The point of using Lorem of distribution it look like readable English.",
+      "The atmosphere was relaxing, the staff were welcoming, and the service exceeded my expectations. I left feeling refreshed and rejuvenated.",
     image: "/testimonial1.svg",
   },
   {
     id: 2,
     name: "James Carter",
     location: "Toronto, Canada",
-    title: "Lorem ipsum dolor sit amet consectetur",
+    title: "Professional Service and Outstanding Results",
     quote:
-      "It is a long established fact that a reader will be tracked distracted by the readable content of a page is when looking at its layout. The point of using Lorem of distribution it look like readable English.",
+      "I've visited many salons before, but this one stands out. The attention to detail and level of care were truly exceptional.",
     image: "/testimonial1.svg",
   },
   {
     id: 3,
     name: "Amara Osei",
     location: "Lagos, Nigeria",
-    title: "Excepteur sint occaecat cupidatat non",
+    title: "My New Favorite Beauty & Wellness Destination",
     quote:
-      "It is a long established fact that a reader will be tracked distracted by the readable content of a page is when looking at its layout. The point of using Lorem of distribution it look like readable English.",
+      "From the moment I walked in, I felt valued. The treatments were excellent and the environment was clean, elegant, and calming.",
     image: "/testimonial1.svg",
   },
 ];
